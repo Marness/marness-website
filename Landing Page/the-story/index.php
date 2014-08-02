@@ -356,7 +356,7 @@
         <div class="inner-page row-fluid">
           <div class="span6 social">
             <a href="#contact"><i class="icon-twitter"></i></a>
-            <a href="#contact"><i class="icon-github-sign"></i></a>    
+            <!--<a href="#contact"><i class="icon-github-sign"></i></a>-->
             <a href="#contact"><i class="icon-facebook-sign"></i></a>
             <a href="#contact"><i class="icon-google-plus-sign"></i></a>
           </div>
