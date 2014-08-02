@@ -51,7 +51,7 @@
       <header class="navbar navbar-fixed-top">
         <div class="inner-page">
           <h1 class="logo">
-          	<img class="lazy" alt="Marness" src="assets/img/pixel.png" data-original="assets/img/logo.png"/>
+          	<img class="lazy" alt="Marness" src="assets/img/pixel.png" data-original="assets/img/logo-blanco-web2.png"/>
 		  </h1>
           <a class="btn-nav" data-toggle="collapse" data-target=".nav-collapse">
             <i class="icon-reorder"></i>
@@ -113,15 +113,15 @@
           <ul class="features list-inline">
             <li>
               <h3><i class="icon-tablet"></i> Entertainment </h3>
-              <p>Nowadays, technology is at the figertips of every kids, that's why we love entertaining them on every screen.<br/><br/></p>
+              <p>Nowadays, technology is at the fingertips of every kids, that's why we love entertaining them on every screen.<br/><br/></p>
             </li>
             <li>
               <h3><i class="icon-ok"></i> Education </h3>
-              <p>Since childhood is the when our kids learn the most, weducation should be present in any form of entertainment for them.</p>
+              <p>Since childhood is the when our kids learn the most, education should be present in any form of entertainment for them.</p>
             </li>
             <li>
               <h3><i class="icon-heart"></i> Values</h3>
-              <p>Tood values are the cornerstone of our society. Keeping and transfering them to future generations is key.<br/><br/></p>
+              <p>Good values are the cornerstone of our society. Keeping and transferring them to future generations is key.<br/><br/></p>
             </li>
             </ul>
         </div>
@@ -131,7 +131,7 @@
           </div>
           <div class="span6">           
             <h3>Multiplatform</h3>
-            <p class="lead">Take the entartainment with you. No mather where you are or the size of your screen</p>
+            <p class="lead">Take the entertainment with you. No matter where you are or the size of your screen.</p>
             <ul class="list-wide">
               <li><i class="icon-check"></i> Web</li>
               <li><i class="icon-check"></i> Mobile</li>
@@ -368,3 +368,13 @@
 
   </body>
 </html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52491786-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
