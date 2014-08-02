@@ -1,29 +1,3 @@
-<?php
-// display form if user has not clicked submit
-if (!isset($_POST["submit"])) {
-  ?>
-  <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-  From: <input type="text" name="from"><br>
-  Subject: <input type="text" name="subject"><br>
-  Message: <textarea rows="10" cols="40" name="message"></textarea><br>
-  <input type="submit" name="submit" value="Submit Feedback">
-  </form>
-  <?php 
-} else {    // the user has submitted the form
-  // Check if the "from" input field is filled out
-  if (isset($_POST["from"])) {
-    $from = $_POST["from"]; // sender
-    $subject = $_POST["subject"];
-    $message = $_POST["message"];
-    // message lines should not exceed 70 characters (PHP rule), so wrap it
-    $message = wordwrap($message, 70);
-    // send mail
-    mail("kontrolakka@gmail.com",$subject,$message,"From: $from\n");
-    echo "Thank you for sending us feedback";
-  }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   
@@ -312,11 +286,40 @@ if (!isset($_POST["submit"])) {
         <div class="row-fluid inner-page contact">
           <div class="span6">
             <h3>What's on your mind?</h3>
+            <!--
             <input type="text" placeholder="Name"><br />
             <input type="text" placeholder="your@mail.com"><br />
             <textarea rows="6" placeholder="Message"></textarea>
             <button class="btn btn-centered">Contact us</button>
+            -->
+			  <?php
+              // display form if user has not clicked submit
+              if (!isset($_POST["submit"])) {
+                ?>
+                <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+                <input type="text" placeholder="Name" name="from"><br>
+                <input type="email" placeholder="your@mail.com" name="email"><br>
+                <textarea rows="6" placeholder="Message" name="message"></textarea><br>
+                <input type="submit" name="submit" value="Contact us" class="btn btn-centered" width="2px" height="2px">
+                </form>
+                <?php 
+              } else {    // the user has submitted the form
+                // Check if the "from" input field is filled out
+                if (isset($_POST["from"])) {
+                  $from = $_POST["from"]; // sender name
+				  $email = $_POST["email"]; //sender email
+                  $subject = $_POST["subject"];
+                  $message = $_POST["message"];
+                  // message lines should not exceed 70 characters (PHP rule), so wrap it
+                  $message = wordwrap($message, 70);
+                  // send mail
+                  mail("marness@marness.com","Web Message from $from","Name: $from\nMail: $email\n\n $message","From: \"Marness Message\" <web@marness.com>");
+                  echo "Thank you for sending us feedback";
+                }
+              }
+              ?>
           </div>
+
           <div class="span6">
             <div class="btn-container centered text-center">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3796731586913!2d-58.40183689999997!3d-34.5945596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca90eabf5fb5%3A0x55910050ff13da88!2sAv+Santa+Fe+2459%2C+Buenos+Aires%2C+Ciudad+Aut%C3%B3noma+de+Buenos+Aires%2C+Argentina!5e0!3m2!1sen!2s!4v1407002472452" width="600" height="450" frameborder="0" style="border:0"></iframe>
@@ -331,12 +334,20 @@ if (!isset($_POST["submit"])) {
           <div class="span4">
             <h4><strong>Be cool</strong>, subscribe to get our latest news</h4>
           </div>
-          <div class="span6">
-            <input type="email" placeholder="your@mail.com" name="EMAIL" class="subscribe">
-          </div>
-          <div class="span2">
-            <button type="submit"  class="btn pull-right subscribe">Subscribe</button>
-          </div>
+
+<form action="//marness.us8.list-manage.com/subscribe/post?u=3bcbb66df90e41cfb12f94a85&amp;id=68135b694a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		          <div class="span6">
+
+	<input type="email" value="" name="EMAIL" class="subscribe" placeholder="your@mail.com" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_3bcbb66df90e41cfb12f94a85_68135b694a" tabindex="-1" value=""></div>
+            	  </div>
+          	<div class="span2">
+<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn pull-right subscribe"></div>
+
+</form>
+
+<!--End mc_embed_signup-->
         </div>
       </div>
 
