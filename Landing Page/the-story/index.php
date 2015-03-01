@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <title>Marness</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Twitter bootstrap theme">
-    <meta name="author" content="prettystrap">
+    <meta name="description" content="Tell your kids awesome stories">
+    <meta name="keywords" content="kids, videos, learning, entertainment, stories, values, educate, education, engage"
+    <meta name="author" content="marness">
 
     <!-- Le styles -->
       <link href="assets/less/style.min.css" rel="stylesheet"> 
@@ -361,7 +362,7 @@
             <a href="#contact"><i class="icon-google-plus-sign"></i></a>
           </div>
           <div class="span6 text-right copyright">
-            &copy; 2014 <a  href="http://prettystrap.com"  title="twitter bootstrap themes">marness.com</a> | all rights reserved |  <a href="#top"   title="Got to top" class="scroll">To top <i class="icon-caret-up"></i></a>
+            &copy; 2014 <a  href="http://marness.com"  title="Marness">marness.com</a> | all rights reserved |  <a href="#top"   title="Got to top" class="scroll">To top <i class="icon-caret-up"></i></a>
           </div>
         </div>
       </footer>
