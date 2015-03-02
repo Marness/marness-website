@@ -3,7 +3,7 @@
   
   <head>
     <meta charset="utf-8">
-    <title>Marness</title>
+    <title>Marness | Tell your kids awesome stories</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tell your kids awesome stories">
     <meta name="keywords" content="kids, videos, learning, entertainment, stories, values, educate, education, engage"
