@@ -77,10 +77,11 @@
           <h2 class="page-headline large">Tell your kids awesome stories</h2>
         </div>  
         <div class="row-fluid inner-page">
-          <div class="span8 pull-right lazy-container">
-          <br/>
-            <img class="lazy" alt="Looks great on every device" src="assets/img/pixel.png" data-original="assets/img/logo-blanco.png"/>
-          </div>
+          <!--<div class="span8 pull-right lazy-container">
+          <br/>-->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL2GUyfbh8C3_OAxy6yG__USrjARIloF5n" frameborder="0" allowfullscreen></iframe>
+            <!--<img class="lazy" alt="Looks great on every device" src="assets/img/pixel.png" data-original="assets/img/logo-blanco.png"/>-->
+          <!--</div>-->
           <div class="span4 pull-left">
             <ul class="big-list">
               <li><i class="icon-tablet"></i> Entertain</li>
