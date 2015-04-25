@@ -79,7 +79,7 @@
         <div class="row-fluid inner-page">
           <!--<div class="span8 pull-right lazy-container">
           <br/>-->
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL2GUyfbh8C3_OAxy6yG__USrjARIloF5n" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/txxcfBA_RRI?list=PLjUk78Bu1AaL4KPP56nWmzzBNdmOtQPLZ" frameborder="0" allowfullscreen></iframe>
             <!--<img class="lazy" alt="Looks great on every device" src="assets/img/pixel.png" data-original="assets/img/logo-blanco.png"/>-->
           <!--</div>-->
           <div class="span4 pull-left">
