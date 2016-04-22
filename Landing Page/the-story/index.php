@@ -3,7 +3,7 @@
   
   <head>
     <meta charset="utf-8">
-    <title>Marness | Tell your kids awesome stories</title>
+    <title>Marness | My EcoKids Club | Tell your kids awesome stories</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tell your kids awesome stories">
     <meta name="keywords" content="kids, videos, learning, entertainment, stories, values, educate, education, engage"
@@ -74,12 +74,12 @@
       <!-- Home Page -->
       <div id="home" class="page color-1">
         <div class="inner-page">
-          <h2 class="page-headline large">Tell your kids awesome stories</h2>
+          <h2 class="page-headline large">Tell your kids awesome stories<img class="lazy" alt="HooplaKids Partner" src="assets/img/hooplakidz-badge-tiny.png" width="100" height="86"/></h2>
         </div>  
         <div class="row-fluid inner-page">
           <!--<div class="span8 pull-right lazy-container">
           <br/>-->
-			<iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/txxcfBA_RRI?list=PLjUk78Bu1AaL4KPP56nWmzzBNdmOtQPLZ" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/yPAD_SQ_SCk?list=PLjUk78Bu1AaL4KPP56nWmzzBNdmOtQPLZ&autoplay=1" frameborder="0" allowfullscreen></iframe>
             <!--<img class="lazy" alt="Looks great on every device" src="assets/img/pixel.png" data-original="assets/img/logo-blanco.png"/>-->
           <!--</div>-->
           <div class="span4 pull-left">
@@ -96,6 +96,7 @@
       </div>
 
       <!-- Sign up -->
+<!--
       <div class="sign-up color-2 visible-desktop">
         <div class="row-fluid inner-page">
           <div class="span12">
@@ -104,7 +105,7 @@
           </div>
         </div>
       </div>
-
+-->
       <!-- Features -->
       <div id="features" class="page color-4">
         <div class="inner-page">
@@ -138,7 +139,7 @@
               <li><i class="icon-check"></i> Web</li>
               <li><i class="icon-check"></i> Mobile</li>
               <li><i class="icon-check"></i> Tablet</li>
-              <li><i class="icon-check"></i> TV (soon)</li>
+              <li><i class="icon-check"></i> TV</li>
             </ul>         
           </div>
         </div>
@@ -357,13 +358,13 @@
       <footer class="page color-5">
         <div class="inner-page row-fluid">
           <div class="span6 social">
-            <a href="#contact"><i class="icon-twitter"></i></a>
+            <a href="https://twitter.com/myecokidsclub" target="_blank"><i class="icon-twitter"></i></a>
             <!--<a href="#contact"><i class="icon-github-sign"></i></a>-->
-            <a href="#contact"><i class="icon-facebook-sign"></i></a>
-            <a href="#contact"><i class="icon-google-plus-sign"></i></a>
+            <a href="https://www.facebook.com/MyEcoKidsClub/" target="_blank"><i class="icon-facebook-sign"></i></a>
+            <a href="https://plus.google.com/+MyEcoKidsClubPlus" target="_blank"><i class="icon-google-plus-sign"></i></a>
           </div>
           <div class="span6 text-right copyright">
-            &copy; 2014 <a  href="http://marness.com"  title="Marness">marness.com</a> | all rights reserved |  <a href="#top"   title="Got to top" class="scroll">To top <i class="icon-caret-up"></i></a>
+            &copy; 2016 <a  href="http://marness.com"  title="Marness">marness.com</a> | all rights reserved |  <a href="#top"   title="Got to top" class="scroll">To top <i class="icon-caret-up"></i></a>
           </div>
         </div>
       </footer>
